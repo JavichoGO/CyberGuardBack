@@ -23,7 +23,7 @@ public class SendMail {
 
     public void sendMail(Users users, Integer token) throws MessagingException {
         String to = users.getEmail(); // Dirección de correo electrónico del destinatario
-        String from = "clever.rivera07@gmail.com"; // Dirección de correo electrónico del remitente
+        String from = "recuperacionescyberguard@gmail.com"; // Dirección de correo electrónico del remitente
 
         //Datos de la plantilla
         Map<String, String> stringObjectMap = new HashMap<>();

@@ -242,7 +242,7 @@ public class UsersOperator {
         List<GraphicsResponseDto.Data> graphicsResponseDtos = graphics.stream().map(graphicsView -> {
             GraphicsResponseDto.Data graphicsResponseDto = new GraphicsResponseDto.Data();
             graphicsResponseDto.setDesired(graphicsView.getDesired());
-            graphicsResponseDto.setCategoryDescription(cataloguesMap.get(graphicsView.getIdFunction()).getDescription());
+            graphicsResponseDto.setFunctionDescription(cataloguesMap.get(graphicsView.getIdFunction()).getDescription());
             graphicsResponseDto.setIdFunction(graphicsView.getIdFunction());
             graphicsResponseDto.setAverage(graphicsView.getAverage());
             return graphicsResponseDto;
