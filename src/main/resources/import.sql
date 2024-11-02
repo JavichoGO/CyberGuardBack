@@ -1,0 +1,41 @@
+---- IDENTIFY
+--INSERT INTO t_catalogues (description, catalogue_type)
+--VALUES
+--('IDENTIFY', 1),  -- Función IDENTIFY
+--('ASSET MANAGEMENT', 2),
+--('RISK ASSESSMENT', 2),
+--('IMPROVEMENT', 2);
+--
+---- PROTECT
+--INSERT INTO t_catalogues (description, catalogue_type)
+--VALUES
+--('PROTECT', 1),  -- Función PROTECT
+--('IDENTIFY MANAGEMENT, AUTHENTICATION AND ACCESS CONTROL', 2),
+--('AWARENESS AND TRAINING', 2),
+--('DATA SECURITY', 2),
+--('PLATFORM SECURITY', 2),
+--('TECHNOLOGY', 2),
+--('INFRAESTRUCTURE RESILENCE', 2);
+--
+---- DETECT
+--INSERT INTO t_catalogues (description, catalogue_type)
+--VALUES
+--('DETECT', 1),  -- Función DETECT
+--('CONTINOUS MONITORING', 2),
+--('ADVERSE EVENT ANALYSIS', 2);
+--
+---- RESPOND
+--INSERT INTO t_catalogues (description, catalogue_type)
+--VALUES
+--('RESPOND', 1),  -- Función RESPOND
+--('INCIDENT MANAGEMENT', 2),
+--('INCIDENT ANALYSIS', 2),
+--('INCIDENT RESPONSE REPORTING AND COMMUNICATION', 2),
+--('INCIDENT MITIGATION', 2);
+--
+---- RECOVER
+--INSERT INTO t_catalogues (description, catalogue_type)
+--VALUES
+--('RECOVER', 1),  -- Función RECOVER
+--('INCIDENT RECOVERY PLAN EXECUTION', 2),
+--('INCIDENT RECOVERY COMMUNICATION', 2);
